@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gps>
+	<rules>
+		<rule>
+			<premisses>
+				<premisse name="Distance" value="Grande"/>
+			</premisses>
+			<conclusion name="Zoom" value="Petit"/>
+		</rule>
+		<rule>
+			<premisses>
+				<premisse name="Distance" value="Faible"/>
+				<premisse name="Vitesse" value="Lente"/>
+			</premisses>
+			<conclusion name="Zoom" value="Normal"/>
+		</rule>
+		<rule>
+			<premisses>
+				<premisse name="Distance" value="Faible"/>
+				<premisse name="Vitesse" value="PeuRapide"/>
+			</premisses>
+			<conclusion name="Zoom" value="Normal"/>
+		</rule>
+		<rule>
+			<premisses>
+				<premisse name="Distance" value="Faible"/>
+				<premisse name="Vitesse" value="Rapide"/>
+			</premisses>
+			<conclusion name="Zoom" value="Gros"/>
+		</rule>
+		<rule>
+			<premisses>
+				<premisse name="Distance" value="Faible"/>
+				<premisse name="Vitesse" value="TresRapide"/>
+			</premisses>
+			<conclusion name="Zoom" value="Gros"/>
+		</rule>
+		<rule>
+			<premisses>
+				<premisse name="Distance" value="Moyenne"/>
+				<premisse name="Vitesse" value="Lente"/>
+			</premisses>
+			<conclusion name="Zoom" value="Petit"/>
+		</rule>
+		<rule>
+			<premisses>
+				<premisse name="Distance" value="Moyenne"/>
+				<premisse name="Vitesse" value="PeuRapide"/>
+			</premisses>
+			<conclusion name="Zoom" value="Normal"/>
+		</rule>
+		<rule>
+			<premisses>
+				<premisse name="Distance" value="Moyenne"/>
+				<premisse name="Vitesse" value="Rapide"/>
+			</premisses>
+			<conclusion name="Zoom" value="Normal"/>
+		</rule>
+		<rule>
+			<premisses>
+				<premisse name="Distance" value="Moyenne"/>
+				<premisse name="Vitesse" value="TresRapide"/>
+			</premisses>
+			<conclusion name="Zoom" value="Gros"/>
+		</rule>
+	</rules>
+</gps>

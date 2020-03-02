@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gps>
+	<rules>
+		<rule>
+			<premisses>
+				<premisse name="Eclairage" value="Sombre"/>
+			</premisses>
+			<conclusion name="Hauteur" value="Remonte"/>
+		</rule>
+		<rule>
+			<premisses>
+				<premisse name="Eclairage" value="Moyen"/>
+				<premisse name="Temperature" value="Froid"/>
+			</premisses>
+			<conclusion name="Hauteur" value="Remonte"/>
+		</rule>
+		<rule>
+			<premisses>
+				<premisse name="Eclairage" value="Fort"/>
+				<premisse name="Temperature" value="Froid"/>
+			</premisses>
+			<conclusion name="Hauteur" value="Remonte"/>
+		</rule>
+		<rule>
+			<premisses>
+				<premisse name="Eclairage" value="Moyen"/>
+				<premisse name="Temperature" value="Frais"/>
+			</premisses>
+			<conclusion name="Hauteur" value="Remonte"/>
+		</rule>
+		<rule>
+			<premisses>
+				<premisse name="Eclairage" value="Fort"/>
+				<premisse name="Temperature" value="Frais"/>
+			</premisses>
+			<conclusion name="Hauteur" value="MiHauteur"/>
+		</rule>
+		<rule>
+			<premisses>
+				<premisse name="Eclairage" value="Moyen"/>
+				<premisse name="Temperature" value="Bon"/>
+			</premisses>
+			<conclusion name="Hauteur" value="MiHauteur"/>
+		</rule>
+		<rule>
+			<premisses>
+				<premisse name="Eclairage" value="Fort"/>
+				<premisse name="Temperature" value="Bon"/>
+			</premisses>
+			<conclusion name="Hauteur" value="Ferme"/>
+		</rule>
+		<rule>
+			<premisses>
+				<premisse name="Eclairage" value="Moyen"/>
+				<premisse name="Temperature" value="Chaud"/>
+			</premisses>
+			<conclusion name="Hauteur" value="MiHauteur"/>
+		</rule>
+		<rule>
+			<premisses>
+				<premisse name="Eclairage" value="Fort"/>
+				<premisse name="Temperature" value="Chaud"/>
+			</premisses>
+			<conclusion name="Hauteur" value="Ferme"/>
+		</rule>
+	</rules>
+</gps>
